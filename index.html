@@ -38,7 +38,13 @@
     </div>
 
   </div>
-  <div>🌍 Live Weather</div>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="#weather-search">Home</a>
+    <a href="#currentCard">Current</a>
+    <a href="#forecast">Forecast</a>
+  </nav>
+
+  <div class="header-badge">🌍 Live Weather</div>
   <!-- TODO 4:
        Create a header badge using a div with the class "header-badge".
        Display the text:
@@ -52,7 +58,7 @@
 <main>
 
   <!-- Hero / Search Section -->
-  <section class="hero">
+  <section id="weather-search" class="hero">
     <h2>Check the weather anywhere</h2>
     <p class="subtitle">Search any city for current weather and a 5-day forecast.</p>
     <!-- TODO 5:
@@ -151,7 +157,7 @@
 
 
   <!-- Forecast -->
-  <section class="forecast-section">
+  <section id="forecast" class="forecast-section">
 
     <div class="section-heading">
 
